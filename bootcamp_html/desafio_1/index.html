@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Página Inicial</title>
+</head>
+
+<body>
+    <h1 id="inicio">Introdução a HTML</h1>
+    <hr />
+
+    <h2>Índice</h2>
+
+    <ul>
+        <li><a href="#oque_html">O que é HTML?</a></li>
+        <li><a href="#cliente_servidor">Comunicação de Cliente e Servidor</a></li>
+        <li><a href="#estrutura_basica">Estrutura Básica de HTML</a></li>
+        <ul>
+            <li><a href="#doctype">DOCTYPE</a></li>
+            <li><a href="#head">Head</a></li>
+            <li><a href="#body">Body</a></li>
+        </ul>
+
+        <li><a href="#entendendo_tags">Entendendo Tags</a></li>
+        <ul>
+            <li><a href="#atributos_tags">Atributos de Tags</a></li>
+            <li><a href="#tags_de_texto">Tags de Texto</a></li>
+            <li><a href="#listas">Listas</a></li>
+            <li><a href="#links">Links</a></li>
+        </ul>
+        <li><a href="#referencias">Referências</a></li>
+    </ul>
+    <hr />
+    <h2 id="oque_html">O que é HTML?</h2>
+    <a href="#inicio">(Voltar)</a>
+    <p>
+        HTML (Hypertext Markup Language) é uma linguagem de marcação usada para criar e estruturar o conteúdo de uma
+        página da web. Ele fornece uma estrutura básica para a criação de páginas da web, permitindo a inclusão de
+        texto, imagens, vídeos, links e outros tipos de conteúdo. O navegador web (browser) interpreta o arquivo html e
+        monta a estrutura da página, é por isso que dizem que código em html não é linguagem de programação, é apenas
+        uma linguagem de marcação.
+    </p>
+
+    <hr />
+    <h2 id="cliente_servidor">Comunicação de Cliente e Servidor</h2>
+    <a href="#inicio">(Voltar)</a>
+    <p>
+        Quando acessamos um site no navegador de internet, nós somos clientes, queremos alguma informação, pode ser um
+        vídeo, imagem, algum texto ou aplicação. Cabe então ao cliente fazer uma requisição, ou seja, pedir essas
+        informações ao servidor que envia várias informações, dentre elas, um arquivo html que monta a
+        <strong>estrutura</strong> página. O servidor é um computador em algum lugar do mundo com a função de armazenar
+        os arquivos que serão enviados ao cliente quando ele fizer a requisição, dentre outras funções.
+    </p>
+
+    <hr />
+    <h2 id="estrutura_basica">Estrutura Básica de HTML</h2>
+    <a href="#inicio">(Voltar)</a>
+    <p>
+        A estrutura básica de um documento HTML é composta por três elementos principais: o DOCTYPE, o head e o body. O
+        DOCTYPE informa ao navegador qual versão do HTML está sendo usada. O head contém informações sobre a página,
+        como o título e meta tags, e o body contém o conteúdo real da página.
+    </p>
+
+    <h3 id="doctype">DOCTYPE</h3>
+    <p>
+        O DOCTYPE é uma declaração que informa ao navegador qual versão do HTML está sendo usada no documento. Ele deve
+        ser a primeira linha do documento e é necessário para garantir que o navegador exiba a página corretamente.
+    </p>
+
+    <h3 id="head">Head</h3>
+    <p>
+        A seção head de um documento HTML contém informações sobre a página, como o título, a descrição e as
+        palavras-chave. Também pode incluir referências a arquivos CSS e JavaScript, bem como meta tags que afetam a
+        forma como a página é indexada pelos motores de busca.
+    </p>
+
+    <h3 id="body">Body</h3>
+    <p>
+        A seção body contém o conteúdo real da página, incluindo texto, imagens, vídeos e outras mídias. É aqui que o
+        conteúdo da página é definido e organizado usando tags HTML.
+    </p>
+
+    <hr />
+    <h2 id="entendendo_tags">Entendendo Tags</h2>
+
+    <a href="#inicio">(Voltar)</a>
+    <p>
+        As tags HTML são usadas para definir o conteúdo da página e para estruturá-lo de forma adequada. As tags são
+        cercadas por colchetes angulares ('&lt; &gt;') e podem incluir atributos que afetam a forma como a tag é exibida
+        ou comporta-se. Uma tag pode ser aberta e fechada, quando fechada fica como &lt;tag/&gt;, algumas tags não
+        precisam de fechamento
+    </p>
+
+    <h3 id="atributos_tags">Atributos de Tags</h3>
+    <p>
+        Os atributos de tags são usados para modificar o comportamento ou a aparência de uma tag HTML. Eles são
+        definidos dentro da tag e incluem um nome e um valor, separados por um sinal de igual (=). Alguns exemplos de
+        atributos comuns incluem o href para links e o src para imagens e vídeos.
+    </p>
+
+    <h3 id="tags_de_texto">Tags de Texto</h3>
+    <p>
+        As tags de texto são usadas para definir o texto que será exibido na página. Alguns exemplos de tags de texto
+        incluem &lt;h1&gt; para cabeçalhos, &lt;p&gt; para parágrafos. Dentre outras como escrever em <i>italico</i>
+        &lt;i&gt;, <b>negrito</b>&lt;b&gt; até mesmo <del>riscado</del> &lt;del&gt;
+    </p>
+
+    <h3 id="listas">Listas</h3>
+    <p>
+        As listas são usadas para exibir informações em forma de lista, como itens em uma lista de compras ou links em
+        uma barra de navegação. Existem três tipos principais de listas em HTML: listas ordenadas (&lt;ol&gt;), listas
+        não ordenadas (&lt;ul&gt;) e listas de definição (&lt;dl&gt;).
+    </p>
+
+    <h3 id="links">Links</h3>
+    <p>
+        Os links são usados para permitir que os usuários cliquem em um texto ou imagem para serem levados para outra
+        página ou recurso na web. Eles são criados usando a tag &lt;a&gt; e o atributo href.
+    </p>
+
+    <hr />
+    <h2 id="referencias">Referências</h2>
+    <a href="#inicio">(Voltar)</a>
+    <ul>
+        <li>
+            <a target="_blank" href="https://www.w3schools.com/tags/default.asp">HTML references W3Schools</a>
+        </li>
+        <li>
+            <a target="_blank" href="https://developer.mozilla.org/pt-BR/docs/Web/HTML">HTML: Linguagem de Marcação de
+                Hipertexto</a>
+        </li>
+    </ul>
+
+    <a href="#inicio">(Voltar ao Começo)</a>
+</body>
+
+</html>
